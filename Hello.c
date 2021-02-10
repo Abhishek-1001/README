@@ -2,6 +2,10 @@
 #invlude<conio.h>
 void main()
 {
-printf("hello world");
+int n;
+printf("hello world \n");
+printf("Enter number to add 2 in it: \n");
+scanf("%d",&n);
+printf("%d is your output",n+2);
 getch();
 }
